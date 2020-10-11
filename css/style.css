@@ -45,6 +45,18 @@ iframe {
 	#section1 h1{
 		color: #444;
 	}
+	#section1 h1 a, #section2 h1 a, #section3 h1 a, #section4 h1 a, #section5 h1 a, #section6 h1 a {
+	text-decoration: none;
+	text-align: left;
+	margin: 0 10px 0 10px;
+	position: relative;
+	left: 0;
+	display: block;
+	font-size: 0.8em;
+	}
+	#section1 h1 a:hover, #section2 h1 a:hover, #section3 h1 a:hover, #section4 h1 a:hover, #section5 h1 a:hover, #section6 h1 a:hover {
+	text-decoration: underline;
+	}
 	#section1 h2{
 		color: #9d9d9b;
 	}
@@ -70,7 +82,6 @@ iframe {
 	#section2 p{
 		opacity: 0.9;
 	}
-
 	#section2 #colors{
 		right: 60px;
 		bottom: 0;
@@ -133,6 +144,18 @@ iframe {
 	 * --------------------------------------- */
 	#section6 h1{
 		color: #444;
+	}
+ 	#section6 h1 a {
+	text-decoration: none;
+	text-align: left;
+	margin: 0 10px 0 10px;
+	position: relative;
+	left: 0;
+	display: block;
+	font-size: 0.8em;
+	}
+	#section6 h1 a:hover {
+	text-decoration: underline;
 	}
 	#section6 h2{
 		color: #9d9d9b;
@@ -335,10 +358,11 @@ p{
 	color: #f2f2f2;
 	position:fixed;
 	z-index:70;
-	bottom:0;
+	top:0;
+	left: 5px;
 	width:100%;
-	text-align:right;
-	font-size:0.9em;
+	text-align:left;
+	font-size:2em;
 	padding:8px 0 8px 0;
 }
 #infoMenu ul{
@@ -348,6 +372,7 @@ p{
 	display: block;
 	margin: 0 22px 0 0;
 	color: #333;
+	text-decoration: none;
 }
 #infoMenu li a:hover{
 	text-decoration:underline;
